@@ -6,3 +6,4 @@ CycloKid, 2023-10-25 11AM EST
 - Adjusted spacing to make the hero section take up the entire page when entering (needs testing)
   - Right now, theres a -probably- hacky solution for mobile browsers. Might need to be addressed in the future.
 - Adjusted about section text
+- Update minified files
