@@ -15,9 +15,18 @@
     <!-- Hero Section -->
     <section id="home" class="hero-section">
         <div class="hero-content">
-            <h2>Pomelo Emulator</h2>
+            <div style="height: 5px;"></div>
+            <div class="desktop-only" style="height: 10vh;"></div>
+            <style>
+                @media (max-width: 768px) {
+                    .desktop-only {
+                        display: none;
+                    }
+                }
+            </style>
             <img src="pomelo-icon.png" alt="Pomelo Icon" width="200" height="200">
-            <p>Nintendo Switch Emulator for iOS and iPadOS</p>
+            <h2>Pomelo</h2>
+            <p>A Nintendo Switch Emulator for iOS and iPadOS</p>
             <div class="button-group">
                 <a href="./downloads.html" class="usualbutton" role="button"><i class="fa-solid fa-download"></i> Download</a>
                 <a href="./titles.html" class="redbutton" role="button"><i class="fa-solid fa-gears"></i> Title Playability</a>
@@ -30,7 +39,6 @@
     <!-- Features Section -->
     <section id="features" class="features-section">
         <div class="container">
-            <br><br><br><i class="fa-solid fa-arrow-down"></i> <i class="fa-solid fa-arrow-down"></i> <i class="fa-solid fa-arrow-down"></i><br><br><br><br>
             <h2>Features</h2>
             <div class="feature-grid">
                 <div class="feature-item">
@@ -57,7 +65,7 @@
     <section id="about" class="about-section">
         <div class="container">
             <h2>About Us</h2>
-            <p>We are Stossy11 and Tech Guy. We aim to provide the best NX emulation possible for iOS/iPadOS.</p>
+            <p>We are Stossy11 and Tech Guy - We're aiming to provide the best NX emulation possible for iOS/iPadOS.</p>
         </div>
     </section>
 

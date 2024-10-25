@@ -37,6 +37,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 10px; /* Adjust the spacing between buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line */
 }
 
 .button-group a {
@@ -46,8 +47,8 @@ h1 {
 }
 
 .features-section, .about-section {
+  margin-top: 15vh; /* Push the section below the viewport height */
   padding: 50px 20px;
-  
 }
 
 h2 {
