@@ -49,9 +49,15 @@
             border-radius: 20px;
             cursor: pointer;
             text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s; /* Smooth transition back */
         }
         .button:hover {
-            background-color: #0056b3;
+            background-color: #006adb;
+            transform: scale(1.05); /* Increase size by 5% */
+            transition: transform 0.2s, background-color 0.2s; /* Smooth transition */
+        }
+        h1, p, .button, .left-content, .right-content {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add drop shadow to text */
         }
     </style>
 </head>

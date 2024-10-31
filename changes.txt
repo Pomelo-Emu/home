@@ -1,4 +1,15 @@
-CycloKid, 2023-10-25 11AM EST
+CycloKid, 2024-10-31 10AM EST
+- Added dropshadow to text
+- Added a smooth enlarge effect when hovering over some elements, including:
+  - Features rectangles
+  - All 4 buttons
+  - "Go Back to Home" buttons (Smooth color change as well)
+  - Download .IPA buttons (Smooth color change as well)
+- Renamed source.html to source.json
+- Added updated source.json to public/
+- Update minified files
+
+CycloKid, 2024-10-25 11AM EST
 - Allowed buttons to wrap to the next line
   - This also fixes a problem with mobile browsers not being centered
 - Moved title to be below Pomelo icon
