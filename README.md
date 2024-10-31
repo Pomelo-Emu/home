@@ -1,3 +1,15 @@
+<div align="center">
+  
+<img src="pomelo-icon.png" width="230" height="230">
+
 # Pomelo
 
-This website is all about the Pomelo Emulator
+#### The official site for Pomelo, an NX Emulator
+
+## Quick Links / Pages
+
+#### [Downloads](https://pomelo-emu.github.io/downloads.html)
+
+#### [Titles](https://pomelo-emu.github.io/titles.html)
+
+</div>
