@@ -4,7 +4,7 @@ body {
     background-color: #fbf6e2;
     margin: 0;
     padding: 0;
-    color: #363636; /* Adjust text color for contrast */
+    color: rgba(37, 37, 37, 0.925); /* Adjust text color for contrast */
 }
 
 .content {
@@ -125,3 +125,23 @@ h2 {
     background: #7289da;
     transition: background-color 0.3s ease;
     }
+
+  
+  .usualbutton:hover,
+  .redbutton:hover,
+  .purple:hover,
+  .feature-item:hover {
+    transform: scale(1.05); /* Increase size by 5% */
+    transition: transform 0.2s; /* Smooth transition */
+  }
+
+  .usualbutton,
+  .redbutton,
+  .purple, 
+  .feature-item {
+    transition: transform 0.2s; /* Smooth transition back */
+  }
+
+  h1, h2, h3, p, a, .button-group a { 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add drop shadow to text */
+} 
