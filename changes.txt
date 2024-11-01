@@ -1,3 +1,7 @@
+CycloKid, 2024-10-31 2PM EST
+- Remove merriweather font since it isnt used
+- 
+
 CycloKid, 2024-10-31 10AM EST
 - Added dropshadow to text
 - Added a smooth enlarge effect when hovering over some elements, including:
