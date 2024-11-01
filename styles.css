@@ -74,18 +74,6 @@ h2 {
     
 }
 
-.button-85 {
-  
-   display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1em;
-    color: white;
-    transition: background-color 0.3s ease;
-}
-
 .button:hover {
  opacity: 0.8;
 }
