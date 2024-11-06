@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="pomelo-icon.png" width="230" height="230" alt="''Pomelo Emu Waterslice'' by CycloKid is licensed under CC BY-NC-SA 4.0" title="''Pomelo Emu Waterslice'' by CycloKid is licensed under CC BY-NC-SA 4.0">
+<img src="pomelo-icon.png" width="230" height="230" alt="''Pomelo Emu Waterslice'' by CycloKid is licensed under CC BY-NC-SA 4.0" title="''Pomelo Emu Waterslice'' by CycloKid is licensed under CC BY-NC 4.0">
 
 # Pomelo
 
