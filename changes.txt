@@ -4,7 +4,7 @@ CycloKid, 2024-10-31 8PM EST
 - Correct TrollStore capitalization (ty hydrosu)
 
 CycloKid, 2024-10-31 10AM EST
-- Added dropshadow to text
+- Added dropshadow to texta
 - Added a smooth enlarge effect when hovering over some elements, including:
   - Features rectangles
   - All 4 buttons
