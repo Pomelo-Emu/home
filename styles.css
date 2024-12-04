@@ -61,7 +61,7 @@ h2 {
     justify-content: center; /* Center horizontally */
     gap: 20px; /* Adjust the spacing between boxes */
     flex-wrap: wrap; /* Allows the boxes to wrap to the next line if needed */
-     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     flex: 1 1 250px; /* Allow flex items to grow and shrink, with a base size of 250px */
   
 }
 
