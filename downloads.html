@@ -5,31 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomelo - Downloads</title>
     <link rel="icon" href="/favicon.png" type="image/png">
-    <script src="https://kit.fontawesome.com/f566336324.js" crossorigin="anonymous"></script>
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/brands.min.css" rel="stylesheet" />
+    <link href="css/solid.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: Roboto, sans-serif;
+            font-size: large;
             background-color: #fbf6e2;
             margin: 20px;
             padding: 0;
         }
         .container {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
             padding: 20px;
             max-width: 900px;
             margin: 0 auto;
+            background-color: rgba(245, 232, 181, 0.6);
+            border-radius: 25px;
+            /* use this line below for debugging borders & spacing */
+            /* border: solid, #9d9783; */
+        }
+        .container-newest {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(245, 232, 181, 0.6);
+            border-radius: 25px;
+            border:solid, #ddd33d;
+            /* use this line below for debugging borders & spacing */
+            /* border: solid, #9d9783; */
+        }
+        .disclaimer {
+            display: flex;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
         }
         .left-content {
             flex: 1;
             padding-right: 20px;
+            text-align: center;
         }
         .right-content {
             display: flex;
             flex-direction: column;
-            align-items: flex-end;
+            align-items: center;
+        }
+        .disclaimer-content {
+            align-items: center;
+            padding-right: 20px;
+        }
+        ul {
+            line-height: 138%;
+            list-style-position: inside;
         }
         h1 {
             color: #333;
@@ -43,7 +80,7 @@
         }
         .button {
             display: inline-block;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             padding: 10px 20px;
             font-size: 16px;
             font-weight: bold;
@@ -67,30 +104,28 @@
 </head>
 <body>
      <a href="./" class="button"><i class="fa-solid fa-arrow-left"></i> Go Back to Home</a>
-    <div class="container">
-        <div class="left-content">
-            <h2> Installation will not be as simple as Sideloading with AltStore or SideStore - Please read the setup guide on the Gitlab repo.</h2>
-        </div>
-        <div class="right-content">
-            <a href="https://gitlab.com/pomelo-emu/Pomelo" class="button">Installation Guide</a>
+    <div class="disclaimer">
+        <div class="disclaimer-content">
+            <h2>Getting a working setup is not as simple as Sideloading Pomelo.<br>Please read the guide for installation on the Gitlab repo</h2>
+            <a href="https://gitlab.com/pomelo-emu/Pomelo" class="button"><i class="fa-brands fa-square-gitlab"></i> Installation Guide</a>
         </div>
     </div>
     </div>
 
-    <div class="container">
+    <div class="container-newest">
         <div class="left-content">
             <h1>Pomelo Release - Version 2.7.1</h1>
+            <p style="color:#dd6a3d">✨ Latest Release ✨</p>
             <p>Release Date: November 30, 2024</p>
             <h2>Changelog:</h2>
             <ul>
                 <li>Fix iOS 15 & 16 (WIP)</li>
             </ul>
+            <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.7.1 .IPA</a>
+            <a href="https://github.com/Pomelo-Emu/PomeloRPC/releases/download/1.0/PomeloRPC-macOS.zip" class="button"><i class="fa-solid fa-desktop"></i> Download PomeloRPC (MacOS)</a>
         </div>
 
-        <div class="right-content">
-            <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.7.1 .IPA</a>
-            <a href="https://github.com/Pomelo-Emu/PomeloRPC/releases/download/1.0/PomeloRPC-macOS.zip" class="button"><i class="fa-solid fa-circle-down"></i> Download PomeloRPC (MacOS)</a>
-        </div>
+
     </div>
 
     <hr class="versionborder">
@@ -100,17 +135,16 @@
             <h1>Pomelo Release - Version 2.7</h1>
             <p>Release Date: November 30, 2024</p>
             <h2>Changelog:</h2>
+            
             <ul>
-                <li>Add disclaimer</li>
+                <li>Add Disclaimer</li>
                 <li>Add Game time</li>
-                <li>Edit MoltenVK Settings</li>
+                <li>Edited MoltenVK Settings</li>
                 <li>Allow moving around games</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.7 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -130,11 +164,9 @@
                  <li>Update MoltenVK Settings for Less Stutters</li>
                  <li>Add Disable Touch Screen Option</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.6/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.6 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -146,14 +178,12 @@
             <h2>Changelog:</h2>
             <ul>
                 <li>Fix a bunch of games</li>
-                <li>Make a bunch of games Stable / Stabler</li>
-                <li>Fix Audio and Stutters</li>
+                <li>Improve stability for several games</li>
+                <li>Fix Audio and Stuttering issues</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.5.1/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.5.1 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -167,15 +197,13 @@
                 <li>Re-add Menu Button</li>
                 <li>Add Background to the Emulation View</li>
                 <li>Optimize Code</li>
-                 <li>Fix Crash on Demanding Games (Tested Games include: MK8D, SSMB Ultimate, Portal 2)</li>
+                <li>Fix Crash on Demanding Games (Tested Games: MK8DX, SSB Ultimate, Portal 2)</li>
                 <li>Update App Icons</li>
                 <li>Secret (iOS 18.0+)</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.5/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.5 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -189,14 +217,12 @@
                 <li>Removed Apple ID Login</li>
                 <li>Add "Hide Menu button" Option in settings</li>
                 <li>Add "Open Game" button to launch games outside of the Pomelo files</li>
-                 <li>Remove Menu Button (will come back in later release)</li>
-                <li>Backend changes</li>
+                <li>Remove Menu Button (Will return in a later release)</li>
+                <li>Other backend changes</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.4/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.4 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -210,13 +236,11 @@
                 <li>Added Apple ID Login</li>
                 <li>UI Changes</li>
                 <li>Add Metal HUD Option (iOS 16+)</li>
-                 <li>Fix some Stutters</li>
+                <li>Fixed some Stuttering issues</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.3/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.3 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -227,20 +251,18 @@
             <p>Release Date: October 22, 2024</p>
             <h2>Changelog:</h2>
             <ul>
-                <li>Add iOS 15 Support</li>
+                <li>Add support for iOS 15</li>
                 <li>Add URLScheme</li>
                 <li>Add Shortcuts</li>
-                 <li>Fixed Mii Maker</li>
-                 <li>Add 16/9 Full Screen</li>
-                 <li>Add Saving Game Icons</li>
+                <li>Fixed Mii Maker</li>
+                <li>Add 16:9 Full Screen</li>
+                <li>Add Game Saving Icons</li>
                 <li>(Re) Add Plus button for Importing roms, keys and firmware</li>
                 <li>New App Icons</li>
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.2/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.2 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -254,13 +276,10 @@
                 <li>Add Mii Maker.</li>
                 <li>Add in app Trollstore JIT Enabling</li>
                 <li>Make onscreen controls more translucent</li>
-                
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.1/Pomelo-2.1.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.1 .IPA</a>
         </div>
+
     </div>
 
     <hr class="versionborder">
@@ -271,19 +290,16 @@
             <p>Release Date: October 10, 2024</p>
             <h2>Changelog:</h2>
             <ul>
-                <li>Add Screenshots (may crash on some games)</li>
-                <li>Make Bottom Buttons Work</li>
-                <li>Add Screenshot Manager</li>
-                <li>Re Add BootOS</li>
-                <li>Add Games Grid</li>
-                <li>Adjust On-Screen Controls</li>
-                
+                <li>Added screenshotting functionality (May cause crashes on some games)</li>
+                <li>Added screenshot manager</li>
+                <li>Make bottom buttons function properly</li>
+                <li>Re-add BootOS</li>
+                <li>Add games grid</li>
+                <li>Adjusted on-screen controls</li>                
             </ul>
-        </div>
-
-        <div class="right-content">
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.0/Pomelo-2.0.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.0 .IPA</a>
         </div>
+
     </div>
 
 </body>
