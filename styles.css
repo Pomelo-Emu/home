@@ -66,7 +66,7 @@ h2 {
 }
 
 .feature-item {
-  background-color: rgba(245, 232, 181, 0.6); /* Semi-transparent background */
+    background-color: rgba(245, 232, 181, 0.6); /* Semi-transparent background */
     border-radius: 15px; /* Round the corners for aesthetics */
     padding: 20px; /* Adds space inside the element */
     margin: 15px 0; /* Space between the feature boxes */
