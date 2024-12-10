@@ -25,7 +25,12 @@
                     }
                 }
             </style>
-            <img src="pomelo-icon.png" alt="Pomelo Emulator Icon" title="''Pomelo Emu Waterslice'' by CycloKid is licensed under CC BY-NC 4.0" width="200" height="200">
+            <div class="icon-container">
+                <div class="icon-flipper">
+                    <img src="pomelo-icon.png" alt="Pomelo Emulator Icon" class="icon-front" title="'Pomelo Emu Waterslice' by CycloKid is licensed under CC BY-NC 4.0" width="200" height="200">
+                    <img src="pomelo-pixel.png" alt="Alternative Pomelo Icon" class="icon-back" title="'Pomelo Emu Waterslice' by CycloKid is licensed under CC BY-NC 4.0" width="200" height="200">
+                </div>
+            </div>
             <h2>Pomelo</h2>
             <p>A Nintendo Switch Emulator for iOS and iPadOS</p>
             <div class="button-group">
@@ -36,6 +41,58 @@
             </div>
         </div>
     </section>
+
+    <style>
+        .icon-container {
+            perspective: 1000px;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            transform-origin: center;
+            position: relative;
+        }
+
+        .icon-flipper {
+            width: 100%;
+            height: 100%;
+            transition: transform 1s;
+            transform-style: preserve-3d;
+            cursor: pointer;
+            transform-origin: center;
+            position: relative;
+        }
+
+        .icon-flipper.flipped {
+            transform: rotateY(540deg);
+        }
+
+        .icon-front, .icon-back {
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            transform-origin: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .icon-back {
+            transform: rotateY(540deg);
+            /* (May prove useful in the future) From https://stackoverflow.com/questions/14068103/disable-antialising-when-scaling-images */
+            image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+            image-rendering: -moz-crisp-edges;          /* Firefox                        */
+            image-rendering: -o-crisp-edges;            /* Opera                          */
+            image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+            image-rendering: pixelated;                 /* Universal support since 2021   */
+            image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+        }
+    </style>
+
+    <script>
+        document.querySelector('.icon-flipper').addEventListener('click', function() {
+            this.classList.toggle('flipped');
+        });
+    </script>
 
     <!-- Features Section -->
     <section id="features" class="features-section">
