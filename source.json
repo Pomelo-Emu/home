@@ -1,17 +1,10 @@
 {"apps":[{"beta":false,"bundleIdentifier":"com.stossy11.Pomelo","developerName":"Stossy11, TechGuy",
-"downloadURL":"https://github.com/Pomelo-Emu/Pomelo/releases/download/1.7.1/Pomelo.ipa",
-"iconURL":"https://github.com/Pomelo-Emu/Pomelo/raw/main/Pomelo/Assets.xcassets/AppIcon.appiconset/fun%201.png",
+"downloadURL":"https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7.1/Pomelo.ipa",
+"iconURL":"https://pomelo-emu.github.io/pomelo-icon.png",
 "localizedDescription":"Pomelo is a Nintendo Switch Emulator that uses the MoltenVK implementation\nNOTE: You need JIT for this to run",
-"name":"Pomelo","screenshotURLs":["https://github.com/stossy11/Pomelo/raw/main/images/IMG_1807.png"],"size":2184796,"subtitle":"A Nintendo Switch Emulator",
-"tintColor":"34a853","version":"2.2","versionDate":"2024-10-20T14:07:00-07:00",
-"versionDescription":"Add iOS 15 Support
-\nAdd URLScheme pomelo://game?id=
-\nAdd Shortcuts
-\nFixed Mii Maker
-\nAdd 16/9 Full Screen
-\nAdd Saving Game Icons
-\n(Re) Add Plus button for Importing roms, keys and firmware
-\nNew App Icons"}],
+"name":"Pomelo","screenshotURLs":["https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7.1/Pomelo.ipa"],"size":2184796,"subtitle":"A Nintendo Switch Emulator",
+"tintColor":"34a853","version":"2.7.1","versionDate":"2024-10-20T14:07:00-07:00",
+"versionDescription":"Changelog: \n Add Disclaimer \n Add Game time \n Edit MoltenVK Settings \n Allow moving around games"}],
 "identifier":"com.pomelo.Pomelo","name":"Pomelo-Emu","news":[{"appID":"com.stossy11.Pomelo","caption":"Switch Emu neat its finest",
-"date":"2024-09-15","identifier":"pomelo-is-out","imageURL":"https://github.com/Pomelo-Emu/Pomelo/raw/main/Pomelo/Assets.xcassets/AppIcon.appiconset/fun%201.png",
+"date":"2024-09-15","identifier":"pomelo-is-out","imageURL":"https://pomelo-emu.github.io/pomelo-icon.png",
 "notify":false,"tintColor":"34a853","title":"Pomelo now works with Trollstore!","url":"https://pomelo-emu.github.io"}],"userInfo":{}}
