@@ -13,7 +13,10 @@
             font-family: Roboto, sans-serif;
             background-color: #fbf6e2;
             color: #333;
-            margin: 20px;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
         h2 {
             color: #2d2d2d;
@@ -49,16 +52,26 @@
         }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
             padding: 15px;
-            margin: 0 auto;
+            align-items: stretch; /* Ensures full vertical stretch */
         }
         .grid-item {
             background-color: #f5e8b5;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
+            padding: 70px;
+            border-radius: 15px;
+            box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+            display: flex;
+            align-items: center; /* Vertically centers content */
+            font-size: 140%;
+            text-align: left;
+        }
+        .grid-image {
+        width: 150px; /* Adjust as needed */
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 20px;
         }
     </style>
 </head>
@@ -67,44 +80,44 @@
 
     <h2>Pomelo Emulator's Team Members and Contributors Credits</h2>
 
-    <h3 style="color: #82649a;">Stossy</h3>
+    <h3 style="color: #82649a;">Stossy11</h3>
     <div class="grid-container">
-        <div class="grid-item">LOREM</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Maecenas volutpat sapien quis erat iaculis, nec dignissim turpis scelerisque.</div>
     </div>
 
-    <h3 style="color: #649a67;">TechGuy</h3>
+    <h3 style="color: #82649a;">TechGuy541</h3>
     <div class="grid-container">
-        <div class="grid-item">IPSUM</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Etiam sit amet libero mollis, pellentesque ligula sed, faucibus sapien.</div>
     </div>
 
-    <h3 style="color: #649a67;">Person 3</h3>
+    <h3 style="color: #82649a;">CycloKid</h3>
     <div class="grid-container">
-        <div class="grid-item">DOLOR</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Cras molestie ante et enim semper, at semper mi fermentum.</div>
     </div>
 
-    <h3 style="color: #649a67;">Person 4</h3>
+    <h3 style="color: #82649a;">Person 4</h3>
     <div class="grid-container">
-        <div class="grid-item">SIT</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Suspendisse eget enim malesuada, aliquam lectus eu, interdum felis.</div>
     </div>
 
-    <h3 style="color: #64a9b9;">Person 5</h3>
+    <h3 style="color: #82649a;">Person 5</h3>
     <div class="grid-container">
-        <div class="grid-item">AMET</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Etiam sollicitudin felis nec odio vulputate, eget pharetra nisl aliquet.</div>
     </div>
 
-    <h3 style="color: #c5b453;">Person 6</h3>
+    <h3 style="color: #82649a;">Person 6</h3>
     <div class="grid-container">
-        <div class="grid-item">CONSECTETUR</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Praesent a tortor sit amet enim ultricies condimentum ullamcorper eu turpis.</div>
     </div>
 
-    <h3 style="color: #b46e3c;">Person 7</h3>
+    <h3 style="color: #82649a;">Person 7</h3>
     <div class="grid-container">
-        <div class="grid-item">ADIPISCING</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Vivamus eget dolor congue, suscipit purus vitae, pellentesque libero.</div>
     </div>
 
-    <h3 style="color: #a14c4c;">Person 8w</h3>
+    <h3 style="color: #82649a;">Person 8</h3>
     <div class="grid-container">
-        <div class="grid-item">ELIT</div>
+        <div class="grid-item"><img src="pomelo-pixel.avif" width="100">Etiam euismod dolor id eros laoreet, quis consectetur libero suscipit.</div>
     </div>
 </body>
 </html>
