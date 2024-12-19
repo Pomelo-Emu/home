@@ -45,7 +45,7 @@
             margin: 0 auto;
             background-color: rgba(245, 232, 181, 0.6);
             border-radius: 25px;
-            border:solid, #ddd33d;
+            border: solid #ddd33d;
             /* use this line below for debugging borders & spacing */
             /* border: solid, #9d9783; */
         }
@@ -61,11 +61,6 @@
             flex: 1;
             padding-right: 20px;
             text-align: center;
-        }
-        .right-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
         .disclaimer-content {
             align-items: center;
@@ -104,7 +99,7 @@
             transform: scale(1.05); /* Increase size by 5% */
             transition: transform 0.2s, background-color 0.2s; /* Smooth transition */
         }
-        h1, p, .button, .left-content, .right-content {
+        h1, p, .button, .left-content {
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add drop shadow to text */
         }
     </style>
@@ -117,7 +112,6 @@
             <a href="https://gitlab.com/pomelo-emu/Pomelo" class="button"><i class="fa-brands fa-square-gitlab"></i> Installation Guide</a>
         </div>
     </div>
-    </div>
 
     <div class="container-newest">
         <div class="left-content">
@@ -129,7 +123,7 @@
                 <li>Fix iOS 15 & 16 (WIP)</li>
             </ul>
             <a href="https://github.com/Pomelo-Emu/pomelo-emu.github.io/releases/download/2.7/Pomelo.ipa" class="button"><i class="fa-solid fa-circle-down"></i> Download v2.7.1 .IPA</a>
-            <a href="https://github.com/Pomelo-Emu/PomeloRPC/releases/download/1.0/PomeloRPC-macOS.zip" class="button"><i class="fa-solid fa-desktop"></i> Download PomeloRPC (MacOS)</a>
+            <a href="https://github.com/Pomelo-Emu/PomeloRPC/releases/download/1.0/PomeloRPC-macOS.zip" class="button"><i class="fa-solid fa-desktop"></i> Download PomeloRPC (macOS)</a>
         </div>
 
 
@@ -223,7 +217,7 @@
             <ul>
                 <li>Removed Apple ID Login</li>
                 <li>Add "Hide Menu button" Option in settings</li>
-                <li>Add "Open Game" button to launch games outside of the Pomelo files</li>
+                <li>Add "Open Game" button to launch games outside the Pomelo files</li>
                 <li>Remove Menu Button (Will return in a later release)</li>
                 <li>Other backend changes</li>
             </ul>
