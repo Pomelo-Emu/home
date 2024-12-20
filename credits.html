@@ -7,23 +7,34 @@
     <link rel="icon" href="/favicon.png" type="image/png">
     <link href="css/fontawesome.min.css" rel="stylesheet" />
     <link href="css/solid.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Open Graph Metadata (Useful for social media sites to display proper thumbnails, titles, etc.) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pomelo Emulator - Credits">
+    <meta property="og:description" content="A Nintendo Switch Emulator for iOS and iPadOS">
+    <meta property="og:image" content="https://pomelo-emu.github.io/pomelo-icon.avif">
+    <meta property="og:image:width" content="375">
+    <meta property="og:image:height" content="375">
     <style>
         body {
-            font-family: Roboto, sans-serif;
+            font-family: Inter, sans-serif;
+            text-align: center;
+            font-weight: 600;
             background-color: #fbf6e2;
             color: #333;
-            margin: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
         h2 {
             color: #2d2d2d;
+            font-size: 180%;
         }
         h3 {
             color: #555;
-        }
-        .note {
-            font-style: italic;
-            color: #888;
+            font-size: 160%
         }
         .back-button {
             display: inline-block;
@@ -48,63 +59,69 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add drop shadow to text */
         }
         .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 15px;
-            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
         }
         .grid-item {
             background-color: #f5e8b5;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
+            padding: 70px;
+            border-radius: 15px;
+            box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: row;
+            align-items: center; /* Vertically centers content */
+            gap: 20px;
+            max-width: 600px;
+            font-size: 140%;
+            text-align: left;
+            line-height: 200%;
+        }
+        .grid-item img {
+            border: 6px solid;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        @media screen and (max-width: 768px) {
+            .grid-item {
+                flex-direction: column;
+                text-align: center;
+            }
+    
+            .grid-item img {
+                margin-bottom: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <a href="./" class="back-button"><i class="fa-solid fa-arrow-left"></i> Go Back to Home</a>
 
-    <h2>Pomelo Emulator's Team Members and Contributors Credits</h2>
+    <h2>Pomelo Team Members and Notable Contributors</h2>
 
-    <h3 style="color: #82649a;">Stossy</h3>
+    <h3 style="color: #82649a;">Stossy11</h3>
     <div class="grid-container">
-        <div class="grid-item">LOREM</div>
+        <div class="grid-item">
+            <img src="stossy11.avif" alt="Stossy11 Profile Picture" width="120">
+            <div>[Main/Lead Developer]<br>The magician responsible for this project!</div>
+        </div>
     </div>
 
-    <h3 style="color: #649a67;">TechGuy</h3>
+    <h3 style="color: #82649a;">TechGuy541</h3>
     <div class="grid-container">
-        <div class="grid-item">IPSUM</div>
+        <div class="grid-item">
+            <img src="techguy541.avif" alt="TechGuy541 Profile Picture" width="120" style="border: none; border-radius: 50%;">
+            <div>[Swift & Web Developer]<br>Site creator and maintainer, developer for Pomelo</div>
+        </div>
     </div>
 
-    <h3 style="color: #649a67;">Person 3</h3>
+    <h3 style="color: #82649a;">CycloKid</h3>
     <div class="grid-container">
-        <div class="grid-item">DOLOR</div>
+        <div class="grid-item">
+            <img src="cyclokid.avif" alt="CycloKid Profile Picture" width="120" style="filter: brightness(120%);">
+            <div>[Web Developer & Graphic Designer]<br>Further developing the website and creating several graphics for everything Pomelo-related</div>
+        </div>
     </div>
 
-    <h3 style="color: #649a67;">Person 4</h3>
-    <div class="grid-container">
-        <div class="grid-item">SIT</div>
-    </div>
-
-    <h3 style="color: #64a9b9;">Person 5</h3>
-    <div class="grid-container">
-        <div class="grid-item">AMET</div>
-    </div>
-
-    <h3 style="color: #c5b453;">Person 6</h3>
-    <div class="grid-container">
-        <div class="grid-item">CONSECTETUR</div>
-    </div>
-
-    <h3 style="color: #b46e3c;">Person 7</h3>
-    <div class="grid-container">
-        <div class="grid-item">ADIPISCING</div>
-    </div>
-
-    <h3 style="color: #a14c4c;">Person 8w</h3>
-    <div class="grid-container">
-        <div class="grid-item">ELIT</div>
-    </div>
 </body>
 </html>
